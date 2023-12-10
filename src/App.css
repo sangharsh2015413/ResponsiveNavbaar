@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');         
+/* ubuntu font from Google Fonts */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(234, 241, 243);
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex{
+  display: flex;         /* flex property sets flexible length for responsiveness*/
+  justify-content: space-between;
+}
+.f_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;         /* links looks nice */
+  color: black;
+}
+li {
+  /* removes list icon */
+  list-style: none;
+}
+
+
+.img-shadow{
+  border-radius: 3%;
+  background: linear-gradient(145deg, #e9ecee, #fdfcfc);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.circle {
+   border-radius: 50%;
+}
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+  
+  
